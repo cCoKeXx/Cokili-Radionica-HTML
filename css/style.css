@@ -40,7 +40,7 @@ body{
  /* ----------------------------------- HEADER-------------------------------------*/
 header{
     padding:20px 20px;
-    background-image: url(./Images/Header/Background.jpg);
+    background-image: url(../Images/Header/Background.jpg);
     background-size: cover;
     color:white;
 }
@@ -91,7 +91,7 @@ header .header_text{
     margin-top:40px;
     padding:20px 0 20px 0;
     text-align: center;
-    background-image:url(./Images/NaPopustu/background.jpg) ;
+    background-image:url(../Images/NaPopustu/background.jpg) ;
     background-size: cover;
   
 
@@ -192,7 +192,7 @@ header .header_text{
     border-bottom:5px white solid;
     margin:100px 0;
     color:white;
-    background: url(./Images/howToOrder/chesser-800x561.jpg);
+    background: url(../Images/howToOrder/chesser-800x561.jpg);
     background-size: cover;
     padding:100px 0;
 }
