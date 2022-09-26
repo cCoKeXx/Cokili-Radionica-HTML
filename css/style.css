@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,700&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #84577c;
+}
+/* ----------------------------------- NAVBAR-------------------------------------*/
+.navbar{
+    background-color: #333644 !important;
+   
+  }
+.nav_drop_down{
+    background-color: #84577c ;
+
+}
+.nav_drop_down a{
+    color:white;
+    font-weight: bolder;
+}
+#navLogo{
+    width:40px;
+    border-radius:50%;
+}
+  .navbar-text {
+      color:white !important;
+      text-transform: uppercase;
+      font-weight: bolder !important;
+  }
+  .nav-link{
+      color:white !important;
+      font-weight: bolder !important;
+  }
+ /* ----------------------------------- NAVBAR-------------------------------------*/
+ /* ----------------------------------- HEADER-------------------------------------*/
+header{
+    padding:20px 20px;
+    background-image: url(/Images/Header/Background.jpg);
+    background-size: cover;
+    color:white;
+}
+header img{
+    border:20px solid #333644;
+    border-radius:50%;
+    width:20vw;
+    height:auto;
+    -webkit-box-shadow: -1px 3px 41px 21px rgba(255,255,255,0.41); 
+box-shadow: -1px 3px 41px 21px rgba(255,255,255,0.41);
+}
+header h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: calc(5.5vw + .5rem);
+    margin:0px;
+  
+}
+header h3{
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-size: calc(2vw + .5rem);
+    margin:0;
+}
+header .header_text{
+    
+    padding:20px 0;
+    background-color: #333644;
+    border-radius: 25px;
+    margin-top: 10px;
+    -webkit-box-shadow: 20px 3px 41px 21px rgba(255,255,255,0.41); 
+    box-shadow: 20px 3px 41px 21px rgba(255,255,255,0.41);
+}
+#text{
+    margin-top:20px;
+}
+.text-center{
+    margin:0px;
+}
+.centerBlock{
+    display: table;
+    margin: auto;
+}
+ /* ----------------------------------- HEADER-------------------------------------*/
+/* ----------------------------------- TOP PONUDE-------------------------------------*/
+.topPonuda {
+    border-top:10px  white solid;
+    border-bottom:10px  white solid;
+    margin-top:40px;
+    padding:20px 0 20px 0;
+    text-align: center;
+    background-image:url(/Images/NaPopustu/background.jpg) ;
+    background-size: cover;
+  
+
+}
+.topPonuda h1{
+    max-width: 100%;
+    font-family: 'Pacifico', cursive;
+    color:white;
+    background-color:  #333644;
+    display: inline-block;
+    padding:0 20px 0 20px;
+    border-radius:25px;
+    margin-bottom:20px;
+    font-size: calc(1em + 2vw);
+
+}
+.topPonuda a{
+    color: #84577c;
+    font-weight: bolder;
+   text-decoration: underline;
+}
+.topPonuda .popusti_row{
+    display:flex;
+   
+}
+.topPonuda .popusti_row h6{
+    margin:0;
+}
+.topPonuda .col-md-3 {
+    margin-top: 10px;
+}
+.topPonuda .col-sm-6{
+    margin-top:10px;
+}
+/* ----------------------------------- TOP PONUDE-------------------------------------*/
+.naslov-galerije{
+    margin:10px 0;
+
+}
+.naslov-galerije h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: calc(1em + 4vw);
+    color:white;
+
+}
+.galerija{
+    margin:20px 0;
+}
+.galerija .col-md-3{
+    margin-top: 20px !important;
+
+}
+.galerija .col-sm-6{
+    margin-top: 20px !important;
+}
+.galerija img{
+    border:4px solid white;
+    width:100%;
+}
+.about{
+    margin: 100px 0;
+}
+.about .about_text{
+    background-color: #f2a65a;
+    padding:10px 20px;
+    border-radius: 25px;
+}
+.about .about_text h2{
+    color:white;
+
+}
+.about .about_text p {
+    color:white;
+
+}
+.about .about_text a{
+    color:white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    border:4px solid white;
+    padding:0 10px;
+}
+.about .about_text a:hover{
+    color:#84577c;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    border:4px solid #84577c;
+    padding:0 10px;
+    text-decoration: none;
+}
+#prviRed{
+    margin-bottom: 15px;
+}
+.howToOrder{
+    border-top:5px white solid;
+    border-bottom:5px white solid;
+    margin:100px 0;
+    color:white;
+    background: url(/Images/howToOrder/chesser-800x561.jpg);
+    background-size: cover;
+    padding:100px 0;
+}
+.howToOrder{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.howToOrder li{
+    display:inline-block;
+
+}
+.howToOrder img{
+    max-width: 100%;
+    width:calc(1em + 6vw);
+    border-radius: 50%;
+    border:4px solid white;
+}
+.lights{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom:200px;
+    height: 100px;
+    
+}
+.lights::before{
+    content: '';
+    display:block;
+    height:3px;
+    background-color: #444;
+}
+.lights span{
+    display: inline-block;
+    width:15px;
+    height: 30px;
+    background-color: white;
+    border-radius:50%;
+    margin:0 5px;
+}
+.lights span::before{
+    content: '';
+    display:block;
+    width:15px;
+    height:4px;
+    background-color: #444;
+
+}
+.lights span:nth-child(even){
+  -webkit-animation: even-animation 1s ease both infinite ;
+  -moz-animation:even-animation 1s ease both infinite ;
+  -ms-animation: even-animation 1s ease both infinite;
+  -o-animation: even-animation 1s ease both infinite;
+  animation:even-animation 1s ease both infinite ;
+    
+}
+.lights span:nth-child(odd){
+    -webkit-animation: odd-animation 1s ease both infinite ;
+    -moz-animation:odd-animation 1s ease both infinite ;
+    -ms-animation: odd-animation 1s ease both infinite;
+    -o-animation: odd-animation 1s ease both infinite;
+    animation:odd-animation 1s ease both infinite ;
+      
+  }
+@keyframes even-animation{
+0%,100%{background-color: rgba(255,193,7,1);
+      box-shadow: 0px 2px 10px 4px rgba(255,193,7,1);
+}
+50%{background-color: rgba(255,193,7,.5);
+    box-shadow: 0px 2px 20px 4px rgba(255,193,7,.3);}
+}
+@keyframes odd-animation{
+0%,100%{background-color: rgba(244, 64, 252, .5);
+    box-shadow:0px 2px 20px 4px rgba(244,64,7, .3) ;}
+50%{background-color: rgba(244, 64, 252, 1);
+    box-shadow:0px 2px 20px 4px rgba(244,64,7, 1)}
+}
+@media (min-width: 667px) and (max-width: 900px){ 
+    header h1{
+        font-size: calc(6vw + .5rem);
+    }
+    header h3{
+        font-size: calc(2vw + .5rem);
+    }
+    .topPonuda h1{
+        font-size: calc(1em + 3vw);
+    
+    }
+    header img{
+        border:15px solid #333644;
+    }
+    header .header_text{
+        -webkit-box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63); 
+        box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63);
+        
+    }
+} 
+@media (min-width: 575px) and (max-width: 667px) { 
+    header h1{
+        font-size: calc(8vw + .5rem);
+    }
+    header h3{
+        font-size: calc(2.5vw + .5rem);
+    }
+    .topPonuda h1{
+        font-size: calc(1em + 3vw);
+    
+    }
+    header img{
+        border:10px solid #333644;
+    }
+    header .header_text{
+        -webkit-box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63); 
+        box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63);
+
+    }
+} 
+@media (max-width: 575px) { 
+    header h1{
+        font-size: calc(8vw + .5rem);
+    }
+    header h3{
+        font-size: calc(2vw + .5rem);
+    }
+    .topPonuda h1{
+        font-size: calc(1em + 4vw);
+    
+    }
+    header img{
+        border:7px solid #333644;
+    }
+    header .header_text{
+        -webkit-box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63); 
+        box-shadow: 0px 13px 33px 4px rgba(255,255,255,0.63);
+
+    }
+} 
+
+
